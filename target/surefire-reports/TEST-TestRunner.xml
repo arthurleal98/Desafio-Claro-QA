@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunner" time="0.327" tests="9" errors="9" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/arthur/IdeaProjects/Desafio-Claro-QA/target/test-classes:/home/arthur/IdeaProjects/Desafio-Claro-QA/target/classes:/home/arthur/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/arthur/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/home/arthur/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/home/arthur/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/home/arthur/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/home/arthur/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/arthur/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/arthur/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/arthur/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/home/arthur/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/home/arthur/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/arthur/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/home/arthur/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/home/arthur/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/home/arthur/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/home/arthur/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/arthur/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/arthur/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/home/arthur/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/arthur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/arthur/.jdks/openjdk-21.0.2/lib"/>
+    <property name="sun.java.command" value="/home/arthur/IdeaProjects/Desafio-Claro-QA/target/surefire/surefirebooter-20240318205210214_3.jar /home/arthur/IdeaProjects/Desafio-Claro-QA/target/surefire 2024-03-18T20-52-10_144-jvmRun1 surefire-20240318205210214_1tmp surefire_0-20240318205210214_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/arthur/IdeaProjects/Desafio-Claro-QA/target/test-classes:/home/arthur/IdeaProjects/Desafio-Claro-QA/target/classes:/home/arthur/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/arthur/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/home/arthur/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/home/arthur/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/home/arthur/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/home/arthur/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/arthur/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/arthur/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/arthur/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/home/arthur/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/home/arthur/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/arthur/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/home/arthur/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/home/arthur/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/home/arthur/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/home/arthur/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/home/arthur/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/home/arthur/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/home/arthur/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/arthur/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/arthur/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/home/arthur/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/home/arthur/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/arthur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/arthur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/home/arthur/.jdks/openjdk-21.0.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/arthur/IdeaProjects/Desafio-Claro-QA"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/arthur/IdeaProjects/Desafio-Claro-QA/target/surefire/surefirebooter-20240318205210214_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-58"/>
+    <property name="user.name" value="arthur"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-25-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/arthur/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2023.3.5"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="/home/arthur/IdeaProjects/Desafio-Claro-QA"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Cadastro com sucesso" classname="Cadastro" time="0.062">
+    <error message="The step &apos;eu estou na pagina de cadastro&apos; and 5 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;eu estou na pagina de cadastro&quot;)&#10;public void eu_estou_na_pagina_de_cadastro() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu preencho o campo email com {string}&quot;)&#10;public void eu_preencho_o_campo_email_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu preencho o campo senha com {string}&quot;)&#10;public void eu_preencho_o_campo_senha_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu clico no botao de cadastrar&quot;)&#10;public void eu_clico_no_botao_de_cadastrar() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu devo ser redirecionado para a pagina de login&quot;)&#10;public void eu_devo_ser_redirecionado_para_a_pagina_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;eu devo ver uma mensagem {string}&quot;)&#10;public void eu_devo_ver_uma_mensagem(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'eu estou na pagina de cadastro' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("eu estou na pagina de cadastro")
+public void eu_estou_na_pagina_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo email com {string}")
+public void eu_preencho_o_campo_email_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo senha com {string}")
+public void eu_preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu clico no botao de cadastrar")
+public void eu_clico_no_botao_de_cadastrar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu devo ser redirecionado para a pagina de login")
+public void eu_devo_ser_redirecionado_para_a_pagina_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("eu devo ver uma mensagem {string}")
+public void eu_devo_ver_uma_mensagem(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-err><![CDATA[Mar 18, 2024 8:52:10 PM io.cucumber.core.feature.GluePath warnWhenWellKnownProjectSourceDirectory
+WARNING: Consider replacing glue path 'src/test/java/steps' with 'steps'.
+'
+The current glue path points to a source directory in your project. However cucumber looks for glue (i.e. step definitions) on the classpath. By using a package name you can avoid this ambiguity.
+]]></system-err>
+  </testcase>
+  <testcase name="Cadastro com email invalido" classname="Cadastro" time="0.006">
+    <error message="The step &apos;eu estou na pagina de cadastro&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;eu estou na pagina de cadastro&quot;)&#10;public void eu_estou_na_pagina_de_cadastro() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu preencho o campo email com {string}&quot;)&#10;public void eu_preencho_o_campo_email_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu preencho o campo senha com {string}&quot;)&#10;public void eu_preencho_o_campo_senha_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu clico no botao de cadastrar&quot;)&#10;public void eu_clico_no_botao_de_cadastrar() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;eu devo ver uma mensagem de erro {string}&quot;)&#10;public void eu_devo_ver_uma_mensagem_de_erro(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'eu estou na pagina de cadastro' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("eu estou na pagina de cadastro")
+public void eu_estou_na_pagina_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo email com {string}")
+public void eu_preencho_o_campo_email_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo senha com {string}")
+public void eu_preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu clico no botao de cadastrar")
+public void eu_clico_no_botao_de_cadastrar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("eu devo ver uma mensagem de erro {string}")
+public void eu_devo_ver_uma_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+  <testcase name="Cadastro com senha invalida" classname="Cadastro" time="0.005">
+    <error message="The step &apos;eu estou na pagina de cadastro&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;eu estou na pagina de cadastro&quot;)&#10;public void eu_estou_na_pagina_de_cadastro() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu preencho o campo email com {string}&quot;)&#10;public void eu_preencho_o_campo_email_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu preencho o campo senha com {string}&quot;)&#10;public void eu_preencho_o_campo_senha_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu clico no botao de cadastrar&quot;)&#10;public void eu_clico_no_botao_de_cadastrar() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;eu devo ver uma mensagem de erro {string}&quot;)&#10;public void eu_devo_ver_uma_mensagem_de_erro(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'eu estou na pagina de cadastro' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("eu estou na pagina de cadastro")
+public void eu_estou_na_pagina_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo email com {string}")
+public void eu_preencho_o_campo_email_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo senha com {string}")
+public void eu_preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu clico no botao de cadastrar")
+public void eu_clico_no_botao_de_cadastrar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("eu devo ver uma mensagem de erro {string}")
+public void eu_devo_ver_uma_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+  <testcase name="Cadastro com email ja cadastrado" classname="Cadastro" time="0.006">
+    <error message="The step &apos;eu estou na pagina de cadastro&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;eu estou na pagina de cadastro&quot;)&#10;public void eu_estou_na_pagina_de_cadastro() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu preencho o campo email com {string}&quot;)&#10;public void eu_preencho_o_campo_email_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu preencho o campo senha com {string}\&quot;&quot;)&#10;public void eu_preencho_o_campo_senha_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;eu clico no botao de cadastrar&quot;)&#10;public void eu_clico_no_botao_de_cadastrar() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;eu devo ver uma mensagem de erro {string}&quot;)&#10;public void eu_devo_ver_uma_mensagem_de_erro(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'eu estou na pagina de cadastro' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("eu estou na pagina de cadastro")
+public void eu_estou_na_pagina_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo email com {string}")
+public void eu_preencho_o_campo_email_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo senha com {string}\"")
+public void eu_preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu clico no botao de cadastrar")
+public void eu_clico_no_botao_de_cadastrar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("eu devo ver uma mensagem de erro {string}")
+public void eu_devo_ver_uma_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+  <testcase name="Realizar login com sucesso" classname="Login" time="0.005">
+    <error message="The step &apos;que estou na tela de login&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estou na tela de login&quot;)&#10;public void que_estou_na_tela_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;preencho o campo login com {string}&quot;)&#10;public void preencho_o_campo_login_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;preencho o campo senha com {string}&quot;)&#10;public void preencho_o_campo_senha_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clico no botão de login&quot;)&#10;public void clico_no_botão_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;devo ser redirecionado para a tela de home&quot;)&#10;public void devo_ser_redirecionado_para_a_tela_de_home() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo login com {string}")
+public void preencho_o_campo_login_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo senha com {string}")
+public void preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ser redirecionado para a tela de home")
+public void devo_ser_redirecionado_para_a_tela_de_home() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+  <testcase name="Realizar login com falha" classname="Login" time="0.004">
+    <error message="The step &apos;que estou na tela de login&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estou na tela de login&quot;)&#10;public void que_estou_na_tela_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;preencho o campo login com {string}&quot;)&#10;public void preencho_o_campo_login_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;preencho o campo senha com {string}&quot;)&#10;public void preencho_o_campo_senha_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clico no botão de login&quot;)&#10;public void clico_no_botão_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;devo ver a mensagem de erro {string}&quot;)&#10;public void devo_ver_a_mensagem_de_erro(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo login com {string}")
+public void preencho_o_campo_login_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo senha com {string}")
+public void preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ver a mensagem de erro {string}")
+public void devo_ver_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+  <testcase name="Realizar login com campo login vazio" classname="Login" time="0.003">
+    <error message="The step &apos;que estou na tela de login&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estou na tela de login&quot;)&#10;public void que_estou_na_tela_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;preencho o campo senha com {string}&quot;)&#10;public void preencho_o_campo_senha_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clico no botão de login&quot;)&#10;public void clico_no_botão_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;devo ver a mensagem de erro {string}&quot;)&#10;public void devo_ver_a_mensagem_de_erro(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo senha com {string}")
+public void preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ver a mensagem de erro {string}")
+public void devo_ver_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+  <testcase name="Realizar login com campo senha vazio" classname="Login" time="0.004">
+    <error message="The step &apos;que estou na tela de login&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estou na tela de login&quot;)&#10;public void que_estou_na_tela_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;preencho o campo login com {string}&quot;)&#10;public void preencho_o_campo_login_com(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clico no botão de login&quot;)&#10;public void clico_no_botão_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;devo ver a mensagem de erro {string}&quot;)&#10;public void devo_ver_a_mensagem_de_erro(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo login com {string}")
+public void preencho_o_campo_login_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ver a mensagem de erro {string}")
+public void devo_ver_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+  <testcase name="Realizar login com campo login e senha vazios" classname="Login" time="0.003">
+    <error message="The step &apos;que estou na tela de login&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estou na tela de login&quot;)&#10;public void que_estou_na_tela_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;clico no botão de login&quot;)&#10;public void clico_no_botão_de_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;devo ver a mensagem de erro {string}&quot;)&#10;public void devo_ver_a_mensagem_de_erro(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ver a mensagem de erro {string}")
+public void devo_ver_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+  </testcase>
+</testsuite>

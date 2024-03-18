@@ -1,0 +1,277 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.327 s <<< FAILURE! -- in TestRunner
+Cadastro.Cadastro com sucesso -- Time elapsed: 0.062 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'eu estou na pagina de cadastro' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("eu estou na pagina de cadastro")
+public void eu_estou_na_pagina_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo email com {string}")
+public void eu_preencho_o_campo_email_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo senha com {string}")
+public void eu_preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu clico no botao de cadastrar")
+public void eu_clico_no_botao_de_cadastrar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu devo ser redirecionado para a pagina de login")
+public void eu_devo_ser_redirecionado_para_a_pagina_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("eu devo ver uma mensagem {string}")
+public void eu_devo_ver_uma_mensagem(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Cadastro.Cadastro com email invalido -- Time elapsed: 0.006 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'eu estou na pagina de cadastro' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("eu estou na pagina de cadastro")
+public void eu_estou_na_pagina_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo email com {string}")
+public void eu_preencho_o_campo_email_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo senha com {string}")
+public void eu_preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu clico no botao de cadastrar")
+public void eu_clico_no_botao_de_cadastrar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("eu devo ver uma mensagem de erro {string}")
+public void eu_devo_ver_uma_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Cadastro.Cadastro com senha invalida -- Time elapsed: 0.005 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'eu estou na pagina de cadastro' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("eu estou na pagina de cadastro")
+public void eu_estou_na_pagina_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo email com {string}")
+public void eu_preencho_o_campo_email_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo senha com {string}")
+public void eu_preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu clico no botao de cadastrar")
+public void eu_clico_no_botao_de_cadastrar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("eu devo ver uma mensagem de erro {string}")
+public void eu_devo_ver_uma_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Cadastro.Cadastro com email ja cadastrado -- Time elapsed: 0.006 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'eu estou na pagina de cadastro' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("eu estou na pagina de cadastro")
+public void eu_estou_na_pagina_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo email com {string}")
+public void eu_preencho_o_campo_email_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu preencho o campo senha com {string}\"")
+public void eu_preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("eu clico no botao de cadastrar")
+public void eu_clico_no_botao_de_cadastrar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("eu devo ver uma mensagem de erro {string}")
+public void eu_devo_ver_uma_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Realizar login com sucesso -- Time elapsed: 0.005 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo login com {string}")
+public void preencho_o_campo_login_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo senha com {string}")
+public void preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ser redirecionado para a tela de home")
+public void devo_ser_redirecionado_para_a_tela_de_home() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Realizar login com falha -- Time elapsed: 0.004 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo login com {string}")
+public void preencho_o_campo_login_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo senha com {string}")
+public void preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ver a mensagem de erro {string}")
+public void devo_ver_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Realizar login com campo login vazio -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo senha com {string}")
+public void preencho_o_campo_senha_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ver a mensagem de erro {string}")
+public void devo_ver_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Realizar login com campo senha vazio -- Time elapsed: 0.004 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho o campo login com {string}")
+public void preencho_o_campo_login_com(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ver a mensagem de erro {string}")
+public void devo_ver_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login.Realizar login com campo login e senha vazios -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'que estou na tela de login' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que estou na tela de login")
+public void que_estou_na_tela_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clico no botão de login")
+public void clico_no_botão_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ver a mensagem de erro {string}")
+public void devo_ver_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
