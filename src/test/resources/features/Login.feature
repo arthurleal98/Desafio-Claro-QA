@@ -5,6 +5,7 @@ Feature: Login
     And preencho o campo senha com "teste"
     And clico no botão de login
     Then devo ser redirecionado para a tela de home
+    And devo ver a mensagem de boas vindas com o usuário "teste"
 
     Scenario: Realizar login com falha
     Given que estou na tela de login

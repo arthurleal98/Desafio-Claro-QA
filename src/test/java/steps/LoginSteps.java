@@ -6,6 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -49,11 +50,16 @@ public class LoginSteps {
 
     @Then("devo ver a mensagem de erro {string}")
     public void devoVerAMensagemDeErro(String arg0) {
-
+        Assert.assertTrue(myAccountPage.obterMensagemDeErro().contains(arg0));
     }
 
     @After
     public void tearDown() {
         driver.quit();
+    }
+
+    @And("devo ver a mensagem de boas vindas com o usuário {string}")
+    public void devoVerAMensagemDeBoasVindasComOUsuario(String arg0) {
+        Assert.assertTrue(myAccountPage.obterMensagemBoasVindas().contains(arg0));
     }
 }
