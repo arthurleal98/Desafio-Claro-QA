@@ -26,6 +26,6 @@ Feature: Cadastro
     Scenario: Cadastro com email ja cadastrado
     Given eu estou na pagina de cadastro
     When eu preencho o campo email com "arthur1@arthur.com"
-    And eu preencho o campo senha com "Teste@12345""
+    And eu preencho o campo senha com "Teste@12345"
     And eu clico no botao de cadastrar
     Then eu devo ver uma mensagem de erro "Email ja cadastrado"
