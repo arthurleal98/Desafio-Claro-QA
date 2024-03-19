@@ -22,28 +22,28 @@ public class CadastroSteps {
 
     //Cenario: Cadastro com sucesso
     @Given("eu estou na pagina de cadastro")
-    public void eu_estou_na_pagina_de_cadastro() {
+    public void euEstouNaPaginaDeCadastro() {
         this.driver.get("https://practice.automationtesting.in/my-account/");
         Assert.assertEquals("My Account – Automation Practice Site", this.driver.getTitle());
     }
 
     @When("eu preencho o campo email com {string}")
-    public void eu_preencho_o_campo_email_com(String string) {
+    public void euPreenchoOCampoEmailCom(String string) {
         this.myAccountPage.inserirEmail(string);
     }
 
     @And("eu preencho o campo senha com {string}")
-    public void eu_preencho_o_campo_senha_com(String string) {
+    public void euPreenchoOCampoSenhaCom(String string) {
         this.myAccountPage.inserirPasswordRegister(string);
     }
 
     @And("eu clico no botao de cadastrar")
-    public void eu_clico_no_botao_de_cadastrar() {
+    public void euClicoNoBotaoDeCadastrar() {
         this.myAccountPage.clicarRegister();
     }
 
     @Then("eu devo ser redirecionado para a pagina de login")
-    public void eu_devo_ser_redirecionado_para_a_pagina_de_login() {
+    public void euDevoSerRedirecionadoParaAPaginaDeLogin() {
         //deve verificar se na pagina atual tem o texto "Hello"
         Assert.assertTrue(this.myAccountPage.obterMensagemBoasVindas().contains("Hello"));
     }
@@ -51,7 +51,7 @@ public class CadastroSteps {
     //Cenario 2: Cadastro com email invalido
 
     @Then("eu devo ver uma mensagem de erro")
-    public void eu_devo_ver_a_mensagem_de_erro() {
+    public void euDevoVerUmaMensagemDeErro() {
         //deve verificar se na pagina atual tem o texto "Error"
         Assert.assertTrue(this.myAccountPage.obterMensagemDeErro().contains("Error"));
     }
